@@ -1,5 +1,10 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+  // Convert both strings to lowercase
+  const str = s1.toLowerCase();
+  const sub = s2.toLowerCase();
+
+  // Use indexOf to get the first occurrence
+  return str.indexOf(sub);
 }
 
 // Please do not change the code below
